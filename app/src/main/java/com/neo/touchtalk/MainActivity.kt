@@ -96,7 +96,7 @@ class MainActivity : Activity() {
         brandRow.addView(brand, LinearLayout.LayoutParams(0, -2, 1f))
         brandRow.addView(pill)
         root.addView(brandRow)
-        root.addView(label("Communication without barriers, in both directions.", 14f, muted).apply { setPadding(0, dp(6), 0, dp(16) }) )
+        root.addView(label("Communication without barriers, in both directions.", 14f, muted).apply { setPadding(0, dp(6), 0, dp(16)) })
 
         val connectionCard = card()
         connectionCard.addView(label("ESP32 CONNECTION", 12f, sky, true))
